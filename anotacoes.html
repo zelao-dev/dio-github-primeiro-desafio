@@ -1,4 +1,49 @@
-anotacoes sobre o curso
+<!DOCTYPE html lang="pt-BR">
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Anotações DIO</title>
+</head>
+<body>
+		<h1>Introdução ao Git e Github</h1>
+		<h2>Anotações Gerais</h2>
+		<ul>
+			<li>iniciar repositório local (é necessário depois enviar para o Github):
+				<p>git init</p>
+			</li>
 
-é só um exemplo
+			<li>Adicionar usuário e e-mail (de preferência, nome e e-mail devem ser iguais à conta do Github):
+				<p>git config --global user.name nomedeusuario</p>
+				<p>git config --global user.email "exemplo@email.com"</p>
+			</li>
 
+			<li>Adicionar todos os arquivos à STAGE:
+				<p>git add .</p>
+			</li>
+
+			<li>Adicionar arquivo específico à STAGE:
+				<p>git add arquivo-de-exemplo.txt</p>
+			</li>
+		</ul>
+
+		<h2>Desafio</h2>
+		<ol>	
+			<li>Iniciar um repositório remoto Público por meio do Github, utilizando minha conta pessoal</li>
+
+			<li>Na minha máquina (repositório local) clonar o repositório. Comando:<p>git clone https://linkdorepositorio</p></li>
+
+			<li>Nomear o arquivo anotacoes.txt para anotacoes.html (pode ser usado o comando): 
+				<p>mv anotacoes.txt anotacoes.html</p>
+			</li>
+
+			<li>Fazer um commit no repositório local:
+				<p>git commit -m "mensagem do commit"</p>
+			</li>
+
+			<li>Empurrar a situação do repositório local para repositório remoto (push):
+				<p>git push origin main</p>
+			</li>
+
+		</ol>
+</body>
+</html>
